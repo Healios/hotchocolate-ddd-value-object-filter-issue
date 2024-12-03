@@ -1,0 +1,7 @@
+﻿query {
+  readTeams(where: { name: { value: { contains: "Team" } } }) {
+    id
+    name
+    description
+  }
+}
